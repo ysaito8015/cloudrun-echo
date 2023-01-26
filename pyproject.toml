@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cloudrun-echo"
+version = "0.1.0"
+description = "Hello World"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "cloudrun_echo"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
